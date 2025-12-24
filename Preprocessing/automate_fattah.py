@@ -38,9 +38,11 @@ def preprocess_data(
 
     return processed_df
 
-    if __name__ == "__main__":
-    preprocess_data(
+    if __name__ == "__main__": {
+        preprocess_data(
         input_path="data/raw/home_value_insights.csv",
         output_path="data/processed/processed_data.csv",
         target_column="House_Price"
-    )
+        )
+    }
+    
